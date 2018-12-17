@@ -1,0 +1,409 @@
+focus_tree = {
+	id = german_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = GER
+		}
+	}
+	
+	default = no
+
+	focus = {
+		id = 3_industrial_complex_1
+		icon = GFX_goal_generic_construct_civ_factory
+		dynamic = yes
+		x = 4
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 9
+		}
+
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+				set_state_flag = GER_industrial_effort_2IC
+			}
+			
+		}
+	}
+	focus = {
+		id = 3_industrial_complex_2
+		icon = GFX_goal_generic_construct_civ_factory
+		dynamic = yes
+		prerequisite = { focus = 3_industrial_complex_1 }
+		x = 4
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 9
+		}
+
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+				set_state_flag = GER_industrial_effort_2IC
+			}
+			
+		}
+	}
+	focus = {
+		id = 3_industrial_complex_3
+		icon = GFX_goal_generic_construct_civ_factory
+		dynamic = yes
+		prerequisite = { focus = 3_industrial_complex_2 }
+		x = 4
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 9
+		}
+
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+				set_state_flag = GER_industrial_effort_2IC
+			}
+			
+		}
+	}
+	focus = {
+		id = 4_industrial_complex_1
+		icon = GFX_goal_generic_construct_civ_factory
+		dynamic = yes
+		prerequisite = { focus = 3_industrial_complex_3 }
+		x = 4
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 9
+		}
+
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = industrial_complex
+					level = 4
+					instant_build = yes
+				}
+				set_state_flag = GER_industrial_effort_2IC
+			}
+			
+		}
+	}
+	focus = {
+		id = 4_industrial_complex_2
+		icon = GFX_goal_generic_construct_civ_factory
+		dynamic = yes
+		prerequisite = { focus = 4_industrial_complex_1 }
+		x = 4
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 9
+		}
+
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = industrial_complex
+					level = 4
+					instant_build = yes
+				}
+				set_state_flag = GER_industrial_effort_2IC
+			}
+			
+		}
+	}
+	focus = {
+		id = 4_industrial_complex_3
+		icon = GFX_goal_generic_construct_civ_factory
+		dynamic = yes
+		prerequisite = { focus = 4_industrial_complex_2 }
+		x = 4
+		y = 5
+		cost = 10
+		available_if_capitulated = no
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = industrial_complex
+					level = 4
+					instant_build = yes
+				}
+				set_state_flag = GER_industrial_effort_2IC
+			}
+			
+		}
+	}
+	focus = {
+		id = focus_construction_speed_idea_1
+		icon = GFX_goal_generic_construct_civ_factory
+		dynamic = yes
+		prerequisite = { focus = 4_industrial_complex_3 }
+		x = 4
+		y = 6
+		cost = 10
+		available_if_capitulated = no
+		completion_reward = {
+			add_ideas = ind_construction_speed_idea_1
+		}
+	}
+	focus = {
+		id = 2_arms_factory_1
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 2
+		y = 0
+		relative_position_id = GER_autobahn
+		cost = 10
+		available_if_capitulated = no
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = 2_arms_factory_2
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = 2_arms_factory_1 }
+		x = 2
+		y = 1
+		relative_position_id = GER_autobahn
+		cost = 10
+		available_if_capitulated = no
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = 2_arms_factory_3
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = 2_arms_factory_2 }
+		x = 2
+		y = 2
+		relative_position_id = GER_autobahn
+		cost = 10
+		available_if_capitulated = no
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = 3_arms_factory_1
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = 2_arms_factory_3 }
+		x = 2
+		y = 3
+		relative_position_id = GER_autobahn
+		cost = 10
+		available_if_capitulated = no
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = 3_arms_factory_2
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = 3_arms_factory_1 }
+		x = 2
+		y = 4
+		relative_position_id = GER_autobahn
+		cost = 10
+		available_if_capitulated = no
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}focus = {
+		id = 3_arms_factory_3
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = 3_arms_factory_2 }
+		x = 2
+		y = 5
+		relative_position_id = GER_autobahn
+		cost = 10
+		available_if_capitulated = no
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = focus_max_efficiency_speed_speed_1
+		icon = GFX_goal_generic_construct_mil_factory
+		dynamic = yes
+		prerequisite = { focus = 3_arms_factory_3 }
+		x = 2
+		y = 6
+		cost = 10
+		available_if_capitulated = no
+		completion_reward = {
+			add_ideas = arm_max_efficiency_speed_idea_1
+		}
+	}
+}
