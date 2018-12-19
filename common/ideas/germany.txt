@@ -184,20 +184,61 @@ ideas = {
 			picture = generic_exploit_mines
 		
 			modifier = {
-				production_speed_industrial_complex_factor = 0.1
+				production_speed_buildings_factor = 0.10 
 			}
 		
 		}
+		ind_construction_speed_idea_2 = {
+			picture = generic_exploit_mines
 		
+			modifier = {
+				production_speed_buildings_factor = 0.20 
+			}
+		
+		}
 		arm_max_efficiency_speed_idea_1 = {
 			picture = generic_exploit_mines
 		
 			modifier = {
-				factory_max_efficiency_factor = 0.1 
+				production_factory_max_efficiency_factor = 0.05 
 			}
 		
 		}
+		arm_max_efficiency_speed_idea_2 = {
+			picture = generic_exploit_mines
 		
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1 
+			}
+		
+		}
+		infr_cnstr_speed = {
+		
+			picture = generic_exploit_mines
+		
+			modifier = {
+				production_speed_infrastructure_factor = 0.3
+			}
+		
+		}
+		scn_speed_idea_1 = {
+		
+			picture = generic_exploit_mines
+		
+			modifier = {
+				research_time_factor = -0.05
+			}
+		
+		}
+		scn_speed_idea_2 = {
+		
+			picture = generic_exploit_mines
+		
+			modifier = {
+				research_time_factor = -0.1
+			}
+		
+		}
 		GER_autarky_idea = {
 
 			allowed = {

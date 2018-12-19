@@ -11,12 +11,286 @@ focus_tree = {
 	}
 	
 	default = no
+	############################
+	##### Sience ######
+	############################
+	focus = {
+		id = add_tech_slot_bonus_1
+		icon = GFX_focus_research
+		prerequisite = { focus = Sience_speed_tech_bonus_2  }
+		prerequisite = { focus = Sience_industry_tech_bonus_1  }
+		dynamic = yes
+		x = 29
+		y = 2
+		available_if_capitulated = no
 
+		
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	focus = {
+		id = Sience_speed_tech_bonus_2
+		icon = GFX_goal_generic_scientific_exchange
+		prerequisite = { focus = Sience_speed_tech_bonus_1 }
+		dynamic = yes
+		x = 30
+		y = 1
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = scn_speed_idea_1
+				add_idea = scn_speed_idea_2
+			}
+		}
+	}
+	focus = {
+		id = Sience_speed_tech_bonus_1
+		icon = GFX_goal_generic_scientific_exchange
+		dynamic = yes
+		x = 30
+		y = 0
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+			add_ideas = scn_speed_idea_1
+		}
+	}
+	focus = {
+		id = Sience_industry_tech_bonus_1
+		icon = GFX_goal_generic_construction2
+		prerequisite = { focus = Sience_electric_tech_bonus_1 }
+		dynamic = yes
+		x = 28
+		y = 1
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = industry
+			}
+		}
+	}
+	focus = {
+		id = Sience_electric_tech_bonus_1
+		icon = GFX_goal_generic_production2
+		dynamic = yes
+		x = 28
+		y = 0
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = electronics
+			}
+		}
+	}
+	############################
+	##### Aviation ######
+	############################
+	focus = {
+		id = Aviation_tactical_bomber_tech_bonus_1
+		icon = GFX_goal_generic_air_fighter2
+		dynamic = yes
+		x = 26
+		y = 0
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = tactical_bomber
+			}
+		}
+	}
+	focus = {
+		id = Aviation_cas_bomber_tech_bonus_1
+		icon = GFX_goal_generic_air_fighter2
+		dynamic = yes
+		x = 24
+		y = 0
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = cas_bomber
+			}
+		}
+	}
+	focus = {
+		id = Aviation_fighter_tech_bonus_1
+		icon = GFX_goal_generic_air_fighter2
+		dynamic = yes
+		x = 22
+		y = 0
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = light_fighter
+			}
+		}
+	}
+	############################
+	##### Army ######
+	############################
+	focus = {
+		id = support_tech_bonus_1
+		icon = GFX_goal_generic_construction2
+		dynamic = yes
+		x = 20
+		y = 0
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = support_tech
+			}
+		}
+	}
+	focus = {
+		id = support_tech_bonus_2
+		icon = GFX_goal_generic_construction2
+		prerequisite = { focus = support_tech_bonus_1 }
+		dynamic = yes
+		x = 20
+		y = 1
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = support_tech
+			}
+		}
+	}
+	focus = {
+		id = doctrine_tech_bonus_2
+		icon = GFX_goal_generic_army_doctrines
+		prerequisite = { focus = doctrine_tech_bonus_1 }
+		dynamic = yes
+		x = 18
+		y = 1
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+	focus = {
+		id = doctrine_tech_bonus_1
+		icon = GFX_goal_generic_army_doctrines
+		dynamic = yes
+		x = 18
+		y = 0
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+	focus = {
+		id = tank_tech_bonus_1
+		icon = GFX_goal_generic_army_tanks
+		dynamic = yes
+		x = 16
+		y = 0
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = armor 
+			}
+		}
+	}
+	focus = {
+		id = infantry_tech_bonus_1
+		icon = GFX_goal_generic_allies_build_infantry
+		dynamic = yes
+		x = 14
+		y = 0
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = infantry_weapons 
+			}
+		}
+	}
+	############################
+	##### Industry ######
+	############################
+	focus = {
+		id = infra_cnstr_speed 
+		icon = GFX_goal_generic_construct_civ_factory
+		dynamic = yes
+		x = 12
+		y = 0
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+			add_ideas = infr_cnstr_speed
+		}
+	}
 	focus = {
 		id = 3_industrial_complex_1
 		icon = GFX_goal_generic_construct_civ_factory
 		dynamic = yes
-		x = 4
+		x = 10
 		y = 0
 		cost = 10
 		ai_will_do = {
@@ -52,7 +326,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_civ_factory
 		dynamic = yes
 		prerequisite = { focus = 3_industrial_complex_1 }
-		x = 4
+		x = 10
 		y = 1
 		cost = 10
 		ai_will_do = {
@@ -88,7 +362,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_civ_factory
 		dynamic = yes
 		prerequisite = { focus = 3_industrial_complex_2 }
-		x = 4
+		x = 10
 		y = 2
 		cost = 10
 		ai_will_do = {
@@ -124,7 +398,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_civ_factory
 		dynamic = yes
 		prerequisite = { focus = 3_industrial_complex_3 }
-		x = 4
+		x = 10
 		y = 3
 		cost = 10
 		ai_will_do = {
@@ -160,7 +434,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_civ_factory
 		dynamic = yes
 		prerequisite = { focus = 4_industrial_complex_1 }
-		x = 4
+		x = 10
 		y = 4
 		cost = 10
 		ai_will_do = {
@@ -196,7 +470,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_civ_factory
 		dynamic = yes
 		prerequisite = { focus = 4_industrial_complex_2 }
-		x = 4
+		x = 10
 		y = 5
 		cost = 10
 		available_if_capitulated = no
@@ -225,7 +499,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_civ_factory
 		dynamic = yes
 		prerequisite = { focus = 4_industrial_complex_3 }
-		x = 4
+		x = 10
 		y = 6
 		cost = 10
 		available_if_capitulated = no
@@ -234,9 +508,25 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = focus_construction_speed_idea_2
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = focus_construction_speed_idea_1 }
+		x = 10
+		y = 7
+		cost = 10
+		available_if_capitulated = no
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = ind_construction_speed_idea_1
+				add_idea = ind_construction_speed_idea_2
+			}
+		}
+		
+	}
+	focus = {
 		id = 2_arms_factory_1
 		icon = GFX_goal_generic_construct_mil_factory
-		x = 2
+		x = 8
 		y = 0
 		relative_position_id = GER_autobahn
 		cost = 10
@@ -263,7 +553,7 @@ focus_tree = {
 		id = 2_arms_factory_2
 		icon = GFX_goal_generic_construct_mil_factory
 		prerequisite = { focus = 2_arms_factory_1 }
-		x = 2
+		x = 8
 		y = 1
 		relative_position_id = GER_autobahn
 		cost = 10
@@ -290,7 +580,7 @@ focus_tree = {
 		id = 2_arms_factory_3
 		icon = GFX_goal_generic_construct_mil_factory
 		prerequisite = { focus = 2_arms_factory_2 }
-		x = 2
+		x = 8
 		y = 2
 		relative_position_id = GER_autobahn
 		cost = 10
@@ -317,7 +607,7 @@ focus_tree = {
 		id = 3_arms_factory_1
 		icon = GFX_goal_generic_construct_mil_factory
 		prerequisite = { focus = 2_arms_factory_3 }
-		x = 2
+		x = 8
 		y = 3
 		relative_position_id = GER_autobahn
 		cost = 10
@@ -344,7 +634,7 @@ focus_tree = {
 		id = 3_arms_factory_2
 		icon = GFX_goal_generic_construct_mil_factory
 		prerequisite = { focus = 3_arms_factory_1 }
-		x = 2
+		x = 8
 		y = 4
 		relative_position_id = GER_autobahn
 		cost = 10
@@ -366,11 +656,12 @@ focus_tree = {
 				}
 			}
 		}
-	}focus = {
+	}
+	focus = {
 		id = 3_arms_factory_3
 		icon = GFX_goal_generic_construct_mil_factory
 		prerequisite = { focus = 3_arms_factory_2 }
-		x = 2
+		x = 8
 		y = 5
 		relative_position_id = GER_autobahn
 		cost = 10
@@ -394,16 +685,31 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = focus_max_efficiency_speed_speed_1
+		id = focus_factory_max_efficiency_1
 		icon = GFX_goal_generic_construct_mil_factory
-		dynamic = yes
 		prerequisite = { focus = 3_arms_factory_3 }
-		x = 2
+		x = 8
 		y = 6
 		cost = 10
 		available_if_capitulated = no
 		completion_reward = {
 			add_ideas = arm_max_efficiency_speed_idea_1
 		}
+	}
+	focus = {
+		id = focus_factory_max_efficiency_2
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = focus_factory_max_efficiency_1 }
+		x = 8
+		y = 7
+		cost = 10
+		available_if_capitulated = no
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = arm_max_efficiency_speed_idea_1
+				add_idea = arm_max_efficiency_speed_idea_2
+			}
+		}
+		
 	}
 }
