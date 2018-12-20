@@ -22,6 +22,7 @@ focus_tree = {
 		dynamic = yes
 		x = 29
 		y = 2
+		cost = 10
 		available_if_capitulated = no
 
 		
@@ -37,6 +38,7 @@ focus_tree = {
 		dynamic = yes
 		x = 30
 		y = 1
+		cost = 10
 		available_if_capitulated = no
 
 		
@@ -54,6 +56,7 @@ focus_tree = {
 		dynamic = yes
 		x = 30
 		y = 0
+		cost = 10
 		available_if_capitulated = no
 
 		
@@ -69,6 +72,7 @@ focus_tree = {
 		dynamic = yes
 		x = 28
 		y = 1
+		cost = 10
 		available_if_capitulated = no
 
 		
@@ -87,6 +91,7 @@ focus_tree = {
 		dynamic = yes
 		x = 28
 		y = 0
+		cost = 10
 		available_if_capitulated = no
 
 		
@@ -108,6 +113,7 @@ focus_tree = {
 		dynamic = yes
 		x = 26
 		y = 0
+		cost = 10
 		available_if_capitulated = no
 
 		
@@ -126,6 +132,7 @@ focus_tree = {
 		dynamic = yes
 		x = 24
 		y = 0
+		cost = 10
 		available_if_capitulated = no
 
 		
@@ -144,6 +151,7 @@ focus_tree = {
 		dynamic = yes
 		x = 22
 		y = 0
+		cost = 10
 		available_if_capitulated = no
 
 		
@@ -165,6 +173,7 @@ focus_tree = {
 		dynamic = yes
 		x = 20
 		y = 0
+		cost = 10
 		available_if_capitulated = no
 
 		
@@ -184,6 +193,7 @@ focus_tree = {
 		dynamic = yes
 		x = 20
 		y = 1
+		cost = 10
 		available_if_capitulated = no
 
 		
@@ -203,6 +213,7 @@ focus_tree = {
 		dynamic = yes
 		x = 18
 		y = 1
+		cost = 10
 		available_if_capitulated = no
 
 		
@@ -221,6 +232,7 @@ focus_tree = {
 		dynamic = yes
 		x = 18
 		y = 0
+		cost = 10
 		available_if_capitulated = no
 
 		
@@ -239,6 +251,7 @@ focus_tree = {
 		dynamic = yes
 		x = 16
 		y = 0
+		cost = 10
 		available_if_capitulated = no
 
 		
@@ -257,6 +270,7 @@ focus_tree = {
 		dynamic = yes
 		x = 14
 		y = 0
+		cost = 10
 		available_if_capitulated = no
 
 		
@@ -278,6 +292,7 @@ focus_tree = {
 		dynamic = yes
 		x = 12
 		y = 0
+		cost = 10
 		available_if_capitulated = no
 
 		
