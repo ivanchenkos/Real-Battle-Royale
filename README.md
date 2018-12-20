@@ -1,2 +1,2 @@
 # Real-Battle-Royale
-test
+Mod aimed at a multiplayer game where everything depends only on your skills
