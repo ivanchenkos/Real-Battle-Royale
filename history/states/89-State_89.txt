@@ -1,0 +1,12 @@
+state={
+	id=89
+	name="STATE_89"
+	history={
+	owner = I11
+	}
+	provinces={
+		382 884 1012 1333 2814 2838 2844 2856 2883 2893 2920 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,12 @@
+state={
+	id=74
+	name="STATE_74"
+	history={
+	owner = AI6
+	}
+	provinces={
+		542 2760 2761 2796 2811 2825 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,12 @@
+state={
+	id=275
+	name="STATE_275"
+	history={
+	owner = I10
+	}
+	provinces={
+		74 225 785 801 1411 2016 4023 4047 4051 4073 4092 4094 4162 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

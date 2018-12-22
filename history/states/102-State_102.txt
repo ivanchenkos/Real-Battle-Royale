@@ -1,0 +1,12 @@
+state={
+	id=102
+	name="STATE_102"
+	history={
+	owner = AI6
+	}
+	provinces={
+		1059 1303 1685 1718 2854 2895 2898 2970 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

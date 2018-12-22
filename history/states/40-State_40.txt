@@ -1,0 +1,12 @@
+state={
+	id=40
+	name="STATE_40"
+	history={
+	owner = PL3
+	}
+	provinces={
+		108 250 1145 1311 1666 1803 2536 2567 2580 2586 2606 2609 2626 2635 2636 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

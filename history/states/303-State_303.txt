@@ -1,0 +1,12 @@
+state={
+	id=303
+	name="STATE_303"
+	history={
+	owner = I10
+	}
+	provinces={
+		2280 4248 4281 4300 4333 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

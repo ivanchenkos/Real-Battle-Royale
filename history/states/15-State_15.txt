@@ -1,0 +1,12 @@
+state={
+	id=15
+	name="STATE_15"
+	history={
+	owner = I12
+	}
+	provinces={
+		85 324 774 952 1243 1737 1981 2395 2411 2422 2440 2445 2466 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

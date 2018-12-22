@@ -1,0 +1,12 @@
+state={
+	id=99
+	name="STATE_99"
+	history={
+	owner = PL4
+	}
+	provinces={
+		298 468 790 953 1483 2140 2326 2857 2876 2894 2930 2960 2969 2977 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,12 @@
+state={
+	id=72
+	name="STATE_72"
+	history={
+	owner = AI5
+	}
+	provinces={
+		14 416 720 818 1113 1417 1859 1948 1996 2730 2763 2773 2800 2805 2812 2820 2843 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,12 @@
+state={
+	id=363
+	name="STATE_363"
+	history={
+	owner = PL1
+	}
+	provinces={
+		253 1195 1533 1865 2279 4600 4621 4634 4647 4648 4664 4665 4715 4720 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

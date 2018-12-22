@@ -1,0 +1,12 @@
+state={
+	id=200
+	name="STATE_200"
+	history={
+	owner = PL4
+	}
+	provinces={
+		42 45 710 1433 2013 2266 3582 3623 3653 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

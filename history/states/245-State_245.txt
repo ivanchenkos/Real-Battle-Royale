@@ -1,0 +1,12 @@
+state={
+	id=245
+	name="STATE_245"
+	history={
+	owner = I10
+	}
+	provinces={
+		464 1065 1487 1729 1823 1900 2271 3837 3867 3877 3903 3943 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

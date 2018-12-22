@@ -1,0 +1,12 @@
+state={
+	id=385
+	name="STATE_385"
+	history={
+	owner = AI8
+	}
+	provinces={
+		114 453 1201 2116 2328 4838 4852 4863 4867 4868 4874 4878 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

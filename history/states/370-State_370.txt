@@ -1,0 +1,12 @@
+state={
+	id=370
+	name="STATE_370"
+	history={
+	owner = PL1
+	}
+	provinces={
+		190 362 431 886 1168 1631 1699 4650 4688 4708 4712 4725 4731 4735 4751 4756 4773 4779 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

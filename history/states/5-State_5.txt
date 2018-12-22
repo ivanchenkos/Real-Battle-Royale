@@ -1,0 +1,12 @@
+state={
+	id=5
+	name="STATE_5"
+	history={
+	owner = PL3
+	}
+	provinces={
+		794 1157 2347 2379 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

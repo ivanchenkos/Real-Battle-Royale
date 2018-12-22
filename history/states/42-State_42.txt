@@ -1,0 +1,12 @@
+state={
+	id=42
+	name="STATE_42"
+	history={
+	owner = I11
+	}
+	provinces={
+		705 1700 2566 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

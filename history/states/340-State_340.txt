@@ -1,0 +1,12 @@
+state={
+	id=340
+	name="STATE_340"
+	history={
+	owner = AI8
+	}
+	provinces={
+		1564 1980 1990 2110 4561 4582 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

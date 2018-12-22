@@ -1,0 +1,12 @@
+state={
+	id=380
+	name="STATE_380"
+	history={
+	owner = PL1
+	}
+	provinces={
+		135 342 355 1150 1283 1323 1386 1396 1732 2166 4795 4817 4819 4830 4844 4850 4851 4854 4856 4866 4871 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

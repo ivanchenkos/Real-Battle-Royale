@@ -1,0 +1,12 @@
+state={
+	id=56
+	name="STATE_56"
+	history={
+	owner = I11
+	}
+	provinces={
+		515 842 1458 1855 2611 2615 2633 2641 2642 2661 2669 2673 2679 2698 2714 2715 2732 2771 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

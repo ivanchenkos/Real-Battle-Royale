@@ -1,0 +1,12 @@
+state={
+	id=19
+	name="STATE_19"
+	history={
+	owner = AI5
+	}
+	provinces={
+		59 1590 1667 1961 2246 2414 2430 2432 2441 2458 2469 2490 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,12 @@
+state={
+	id=8
+	name="STATE_8"
+	history={
+	owner = PL3
+	}
+	provinces={
+		854 2099 2356 2360 2370 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
