@@ -1,3 +1,4 @@
+l_russian:
 add_tech_slot_bonus_1:0 "Дополнительная ячейка исследований"
  add_tech_slot_bonus_1_desc:0 "Ячеек исследований много не бывает"
  Sience_speed_tech_bonus_1:0 "Ускорение исследований"
