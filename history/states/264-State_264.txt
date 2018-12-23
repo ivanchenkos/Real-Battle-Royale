@@ -1,6 +1,9 @@
 state={
 	id=264
 	name="STATE_264"
+	history ={
+	owner = I26
+	}
 	provinces={
 		29 1653 1783 3965 3984 3997 4037 
 	}

@@ -1,6 +1,9 @@
 state={
 	id=69
 	name="STATE_69"
+	history ={
+	owner = I13
+	}
 	provinces={
 		1902 2023 2749 2767 2770 2790 
 	}
