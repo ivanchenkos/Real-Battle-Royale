@@ -7,6 +7,6 @@ state={
 	provinces={
 		6 303 345 426 530 865 1026 1309 1341 1922 4168 4181 4231 4251 4264 4277 4284 4295 
 	}
-	manpower=0
+	manpower = 300000
 	buildings_max_level_factor=1.000
 }
