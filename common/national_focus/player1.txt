@@ -1,16 +1,16 @@
 focus_tree = {
-	id = german_focus
+	id = player_focus
 	
 	country = {
 		factor = 0
 		
 		modifier = {
 			add = 10
-			tag = GER
+			tag = PL1
 		}
 	}
 	
-	default = no
+	default = yes
 	############################
 	##### Sience ######
 	############################
@@ -543,7 +543,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_mil_factory
 		x = 8
 		y = 0
-		relative_position_id = GER_autobahn
+		
 		cost = 10
 		available_if_capitulated = no
 		completion_reward = {
@@ -570,7 +570,7 @@ focus_tree = {
 		prerequisite = { focus = 2_arms_factory_1 }
 		x = 8
 		y = 1
-		relative_position_id = GER_autobahn
+		
 		cost = 10
 		available_if_capitulated = no
 		completion_reward = {
@@ -597,7 +597,7 @@ focus_tree = {
 		prerequisite = { focus = 2_arms_factory_2 }
 		x = 8
 		y = 2
-		relative_position_id = GER_autobahn
+		
 		cost = 10
 		available_if_capitulated = no
 		completion_reward = {
@@ -624,7 +624,7 @@ focus_tree = {
 		prerequisite = { focus = 2_arms_factory_3 }
 		x = 8
 		y = 3
-		relative_position_id = GER_autobahn
+		
 		cost = 10
 		available_if_capitulated = no
 		completion_reward = {
@@ -651,7 +651,7 @@ focus_tree = {
 		prerequisite = { focus = 3_arms_factory_1 }
 		x = 8
 		y = 4
-		relative_position_id = GER_autobahn
+		
 		cost = 10
 		available_if_capitulated = no
 		completion_reward = {
@@ -678,7 +678,7 @@ focus_tree = {
 		prerequisite = { focus = 3_arms_factory_2 }
 		x = 8
 		y = 5
-		relative_position_id = GER_autobahn
+		
 		cost = 10
 		available_if_capitulated = no
 		completion_reward = {
