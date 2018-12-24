@@ -2,3 +2,119 @@ TST = {
 	color = rgb { 57 113 228 }
 	color_ui = rgb { 74 147 255 }
 }
+PL1 = {
+	color = rgb { 104 194 37 }
+	color_ui = rgb { 11 147 255 }
+}
+PL2 = {
+	color = rgb { 22 1 228 }
+	color_ui = rgb { 22 147 255 }
+}
+PL3 = {
+	color = rgb { 33 55 228 }
+	color_ui = rgb { 33 147 255 }
+}
+PL4 = {
+	color = rgb { 44 113 228 }
+	color_ui = rgb { 44 147 255 }
+}
+AI5 = {
+	color = rgb { 55 245 228 }
+	color_ui = rgb { 55 147 255 }
+}
+AI6 = {
+	color = rgb { 66 80 9 }
+	color_ui = rgb { 66 147 255 }
+}
+AI7 = {
+	color = rgb { 1 113 40 }
+	color_ui = rgb { 77 147 255 }
+}
+AI8 = {
+	color = rgb { 88 4 2 }
+	color_ui = rgb { 88 147 255 }
+}
+AI9 = {
+	color = rgb { 222 33 228 }
+	color_ui = rgb { 99 147 255 }
+}
+I10 = {
+	color = rgb { 167 113 56 }
+	color_ui = rgb { 74 22 255 }
+}
+I11 = {
+	color = rgb { 57 113 22 }
+	color_ui = rgb { 74 33 255 }
+}
+I12 = {
+	color = rgb { 222 222 1 }
+	color_ui = rgb { 74 44 255 }
+}
+I13 = {
+	color = rgb { 255 113 255 }
+	color_ui = rgb { 74 55 255 }
+}
+I14 = {
+	color = rgb { 11 22 11 }
+	color_ui = rgb { 74 66 255 }
+}
+I15 = {
+	color = rgb { 57 213 66 }
+	color_ui = rgb { 74 77 255 }
+}
+I16 = {
+	color = rgb { 22 60 231 }
+	color_ui = rgb { 74 88 255 }
+}
+I17 = {
+	color = rgb { 57 113 88 }
+	color_ui = rgb { 74 99 255 }
+}
+I18 = {
+	color = rgb { 57 113 99 }
+	color_ui = rgb { 74 147 11 }
+}
+I19 = {
+	color = rgb { 57 113 228 }
+	color_ui = rgb { 74 147 22 }
+}
+I20 = {
+	color = rgb { 57 11 228 }
+	color_ui = rgb { 74 147 33 }
+}
+I21 = {
+	color = rgb { 57 22 228 }
+	color_ui = rgb { 74 147 44 }
+}
+I22 = {
+	color = rgb { 231 66 140 }
+	color_ui = rgb { 74 147 55 }
+}
+I23 = {
+	color = rgb { 57 44 228 }
+	color_ui = rgb { 74 147 66 }
+}
+I24 = {
+	color = rgb { 57 150 228 }
+	color_ui = rgb { 74 147 77 }
+}
+I25 = {
+	color = rgb { 57 66 228 }
+	color_ui = rgb { 74 147 88 }
+}
+I26 = {
+	color = rgb { 57 77 228 }
+	color_ui = rgb { 74 147 99 }
+}
+I27 = {
+	color = rgb { 150 88 228 }
+	color_ui = rgb { 74 147 111 }
+}
+I28 = {
+	color = rgb { 57 99 150 }
+	color_ui = rgb { 74 147 222 }
+}
+I29 = {
+	color = rgb { 150 113 11 }
+	color_ui = rgb { 74 147 125 }
+}
