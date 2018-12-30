@@ -2,12 +2,8 @@ focus_tree = {
 	id = player_focus
 	
 	country = {
-		factor = 0
+		factor = 1
 		
-		modifier = {
-			add = 10
-			tag = PL1
-		}
 	}
 	
 	default = yes
