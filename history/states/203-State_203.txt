@@ -2,7 +2,13 @@ state={
 	id=203
 	name="STATE_203"
 	history={
-	owner = PL4
+		add_core_of = PL4
+		owner = PL4
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 2
+		}
 	}
 	provinces={
 		151 1040 1044 1112 2173 3645 3674 3707 
