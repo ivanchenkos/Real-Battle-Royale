@@ -1,6 +1,6 @@
 supply_area={
 	id= 255
-	name="SUPPLYAREA_"255
+	name="SUPPLYAREA_255"
 	value=12
 	states={
 		255
